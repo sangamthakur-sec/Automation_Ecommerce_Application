@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="nopcommerce Regression Suite">
+	<parameter name="browser" value="firefox"></parameter>
+	<test name="Regression Test" preserve-order="false">
+		<classes>
+			<!--<class name="tests.SearchProductTest" /> -->
+			<class name="tests.AddProductToShoppingCartTest" />
+			<!--<class name="tests.UserRegisterationTestWithJavaFaker" />-->
+		</classes>
+	</test>
+</suite> 
